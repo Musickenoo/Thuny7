@@ -2,7 +2,15 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	if('A' < x && '[' > x){
+		return x -1 ;
+	}
+	else if( x == 'A'){
+		return 'Z';
+	}
+	else{
+		return 48 ;
+	}
 }
 
 int main(){
